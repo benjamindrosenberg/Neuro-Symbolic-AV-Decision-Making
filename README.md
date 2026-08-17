@@ -98,3 +98,74 @@ than constrains learning in safety-critical domains.
 ---
 
 ## Dependencies
+"""
+numpy
+tqdm
+torch
+matplotlib
+"""
+
+Install via:
+
+```bash
+pip install numpy tqdm torch matplotlib
+```
+
+The notebook is designed to run in Google Colab or any local Jupyter
+environment. Set the environment variable `MLNN_OUTPUT_DIR` to specify an
+output directory (defaults to the current working directory; Colab users
+should set to `/content`).
+
+---
+
+## Usage
+
+Open `MLNN-MLP_FullPipeline_v2.ipynb` and run cells top-to-bottom. No manual
+data preparation is required — the simulator generates the dataset in Part 1,
+which is consumed directly by the MLNN in Part 2.
+
+"""
+[INSTALL] Install dependencies
+[CONFIG] Set output directory
+[SIM] Define kinematic simulator
+[RUN] Generate 5,000 episodes
+[TENSOR] Validate and assemble mlnn_tensor
+[MLNN-UTILS] Fuzzy logic primitives and modal operators
+[MLNN-MODEL] MLNN class definition
+[MLNN-TRAIN] Training loop
+[MLNN-RULES] Rule extraction and satisfaction report
+[MLNN-RUN] Execute training and extract constraints
+[MLNN-SUPPL] Predicate-clause matrix and template summary
+[MLP] Baseline comparison — three topologies
+"""
+
+---
+
+## Repository Structure
+"""
+/
+├── MLNN-MLP_FullPipeline_v2.ipynb ← Full pipeline (simulator + MLNN + MLP)
+├── README.md
+└── paper/
+├── [paper].pdf
+└── [slides].pdf (To be added after presentation, 10/07/2026)
+"""
+
+---
+
+## Citation
+
+B. Rosenberg and V. Pentsos, "Interpretable Safety Constraint Inference in
+Autonomous Driving using Modal Logical Neural Networks," in
+*Proc. IEEE Int. Conf. Mach. Learn. Appl. (ICMLA)*, 2026,
+> pp. (to appear).
+
+---
+
+## Notes
+
+This work represents a **preliminary application** of the MLNN architecture
+to AV decision making. The simulator, while structurally equivalent to a
+CARLA-based pipeline, operates under kinematic simplifications. Results
+should be interpreted in this context. Full methodological detail is
+available in the accompanying paper.
