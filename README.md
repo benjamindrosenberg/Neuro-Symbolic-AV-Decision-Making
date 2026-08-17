@@ -98,12 +98,12 @@ than constrains learning in safety-critical domains.
 ---
 
 ## Dependencies
-"""
+'''
 numpy
 tqdm
 torch
 matplotlib
-"""
+'''
 
 Install via:
 
@@ -124,7 +124,7 @@ Open `MLNN-MLP_FullPipeline_v2.ipynb` and run cells top-to-bottom. No manual
 data preparation is required — the simulator generates the dataset in Part 1,
 which is consumed directly by the MLNN in Part 2.
 
-"""
+'''
 [INSTALL] Install dependencies
 [CONFIG] Set output directory
 [SIM] Define kinematic simulator
@@ -137,19 +137,19 @@ which is consumed directly by the MLNN in Part 2.
 [MLNN-RUN] Execute training and extract constraints
 [MLNN-SUPPL] Predicate-clause matrix and template summary
 [MLP] Baseline comparison — three topologies
-"""
+'''
 
 ---
 
 ## Repository Structure
-"""
+'''
 /
 ├── MLNN-MLP_FullPipeline_v2.ipynb ← Full pipeline (simulator + MLNN + MLP)
 ├── README.md
 └── paper/
 ├── [paper].pdf
 └── [slides].pdf (To be added after presentation, 10/07/2026)
-"""
+'''
 
 ---
 
