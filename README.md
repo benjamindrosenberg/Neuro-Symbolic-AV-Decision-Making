@@ -142,14 +142,14 @@ which is consumed directly by the MLNN in Part 2.
 ---
 
 ## Repository Structure
-'''
+```
 /
 ├── MLNN-MLP_FullPipeline_v2.ipynb ← Full pipeline (simulator + MLNN + MLP)
 ├── README.md
 └── paper/
 ├── [paper].pdf
 └── [slides].pdf (To be added after presentation, 10/07/2026)
-'''
+```
 
 ---
 
