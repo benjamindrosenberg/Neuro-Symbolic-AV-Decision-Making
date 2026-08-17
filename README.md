@@ -1,8 +1,7 @@
 # Neuro-Symbolic Decision Making for Autonomous Vehicles
 ### A Modal Logical Neural Network Applied to Crosswalk Engagement
 
-> **Status:** Submitted to ICMLA 2026. Paper and presentation materials will be
-> added upon acceptance, subject to IEEE self-archiving guidelines.
+> **Status:** Accepted to ICMLA 2026.
 
 ---
 
