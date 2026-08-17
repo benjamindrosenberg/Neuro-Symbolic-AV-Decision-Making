@@ -98,12 +98,12 @@ than constrains learning in safety-critical domains.
 ---
 
 ## Dependencies
-'''
+```
 numpy
 tqdm
 torch
 matplotlib
-'''
+```
 
 Install via:
 
@@ -124,7 +124,7 @@ Open `MLNN-MLP_FullPipeline_v2.ipynb` and run cells top-to-bottom. No manual
 data preparation is required — the simulator generates the dataset in Part 1,
 which is consumed directly by the MLNN in Part 2.
 
-'''
+```
 [INSTALL] Install dependencies
 [CONFIG] Set output directory
 [SIM] Define kinematic simulator
@@ -137,7 +137,7 @@ which is consumed directly by the MLNN in Part 2.
 [MLNN-RUN] Execute training and extract constraints
 [MLNN-SUPPL] Predicate-clause matrix and template summary
 [MLP] Baseline comparison — three topologies
-'''
+```
 
 ---
 
@@ -158,7 +158,7 @@ which is consumed directly by the MLNN in Part 2.
 B. Rosenberg and V. Pentsos, "Interpretable Safety Constraint Inference in
 Autonomous Driving using Modal Logical Neural Networks," in
 *Proc. IEEE Int. Conf. Mach. Learn. Appl. (ICMLA)*, 2026,
-> pp. (to appear).
+pp. (to appear).
 
 ---
 
